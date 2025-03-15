@@ -7,6 +7,7 @@ import Landing from "@/pages/landing";
 import Dashboard from "@/pages/dashboard";
 import Discover from "@/pages/discover";
 import Learn from "@/pages/learn";
+import MobileApp from "@/pages/mobile";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -16,6 +17,7 @@ function Router() {
       <Route path="/dashboard" component={Dashboard} />
       <Route path="/discover" component={Discover} />
       <Route path="/learn" component={Learn} />
+      <Route path="/mobile" component={MobileApp} />
       <Route component={NotFound} />
     </Switch>
   );
