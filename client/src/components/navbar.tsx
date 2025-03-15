@@ -13,12 +13,13 @@ export function Navbar() {
             <Link href="/">
               <a className="flex items-center">
                 <LineChart className="h-8 w-8 text-primary" />
-                <span className="ml-2 text-xl font-bold text-gray-900">EasyETF</span>
+                <span className="ml-2 text-xl font-bold text-gray-900">InvestPro</span>
               </a>
             </Link>
             
             <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
               <NavLink href="/" icon={<HomeIcon className="w-4 h-4" />} text="Home" current={location === "/"} />
+              <NavLink href="/accounts" icon={<LineChart className="w-4 h-4" />} text="Accounts" current={location === "/accounts"} />
               <NavLink href="/dashboard" icon={<LineChart className="w-4 h-4" />} text="Dashboard" current={location === "/dashboard"} />
               <NavLink href="/discover" icon={<Search className="w-4 h-4" />} text="Discover" current={location === "/discover"} />
               <NavLink href="/learn" icon={<BookOpen className="w-4 h-4" />} text="Learn" current={location === "/learn"} />

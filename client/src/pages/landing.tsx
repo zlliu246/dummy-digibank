@@ -13,11 +13,10 @@ export default function Landing() {
           <div className="text-center">
             <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
               Invest in Your Future with
-              <span className="text-primary block">Simple ETF Investing</span>
+              <span className="text-primary block">InvestPro Bank</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-              Start building your wealth today with our curated selection of low-cost ETFs.
-              No complex trading required.
+              A Digital bank that allows you to start building your wealth automatically with our curated selection of low-cost ETFs. No complex trading required
             </p>
             <Button size="lg" className="text-lg">
               Get Started <ArrowRight className="ml-2" />
